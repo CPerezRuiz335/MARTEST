@@ -3,7 +3,7 @@
 <div align="center">
   <strong>Manual para elaborar un Test Adaptativo Informatizado Multidimensional (MTAI) en R</strong>
 </div>
-
+ 
 <div align="center">
   <sub>Hecho con ❤︎ por
   <a href="https://www.linkedin.com/in/carlos-p%C3%A9rez-baa6b81a3/">Carlos Pérez</a>
@@ -12,7 +12,7 @@
 
 <br>
 
-MARTEST es parte de un proyecto de Final de Grado que puede encontrarse en <a href="https://ddd.uab.cat/collection/tfg">Dipòsit digital de documents de la UAB</a>, basado en elaborar un MTAI en R acompañado de un manual para su uso.
+Multidimensional Adaptive R TEST es parte de un proyecto de Final de Grado que puede encontrarse en <a href="https://ddd.uab.cat/collection/tfg">Dipòsit digital de documents de la UAB</a>, basado en elaborar un MTAI en R acompañado de un manual para su uso.
 
 ## Contenido
 
