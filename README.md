@@ -9,7 +9,12 @@
   <a href="https://www.linkedin.com/in/carlos-p%C3%A9rez-baa6b81a3/">Carlos Pérez</a>
     </a>
 </div>
+<br>
+<div align="center">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CPerezRuiz335/MARTEST?color=informational">
+  </div>
 
+<div align="justify">
 <br>
 
 Multidimensional Adaptive R TEST es parte de un proyecto de Final de Grado que puede encontrarse en <a href="https://ddd.uab.cat/collection/tfg">Dipòsit digital de documents de la UAB</a>, basado en elaborar un MTAI en R acompañado de un manual para su uso.
