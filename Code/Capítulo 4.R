@@ -39,7 +39,7 @@ diseño <- list(min_SEM = 0.2,
                content = contenido,
                content_prop = contenido_prop,
                max_time = 3600,
-               exposure = sample(seq(0,1,.1), n_items, replace = T))
+               exposure = sample(seq(.2,1,.1), n_items, replace = T))
 
 # Definir ShinyGUI
 
