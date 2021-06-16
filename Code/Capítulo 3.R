@@ -1,4 +1,4 @@
-####### OBTENCI”N DE PAR¡METROS #######   
+####### OBTENCI√ìN DE PAR√ÅMETROS #######   
 
 n_items <- ncol(df)
 
@@ -6,11 +6,11 @@ mirtCluster(parallel::detectCores()-1)
 
 # MODELOs EXPLORATORIO
 
-mirt.exp.3F <- mirt(df[,1:10], 10, itemtype = '2PL', method = 'MHRM')
+mirt.exp.3F <- mirt(df, 3, itemtype = '2PL', method = 'MHRM')
 
 mirt.exp.3F
 
-mirt.exp.2F <- mirt(df, 20, itemtype = '2PL', method = 'MHRM')
+mirt.exp.2F <- mirt(df, 2, itemtype = '2PL', method = 'MHRM')
 
 mirt.exp.2F
 
