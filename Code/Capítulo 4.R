@@ -1,6 +1,6 @@
 ####### TAI #######       
 
-# Aquí se proporciona el ejemplo del Capítulo 4
+# AquÃ­ se proporciona el ejemplo del CapÃ­tulo 4
 
 # Definir df
 
@@ -26,27 +26,27 @@ preTAI <- list(max_items = 5,
 
 # Definir design
 
-contenido <-  rep(c('ComprensiónLectora', 'ComprensiónOral',
-                    'Ortografía', 'Cohesión'), each = 5)
+contenido <-  rep(c('ComprensiÃ³nLectora', 'ComprensiÃ³nOral',
+                    'OrtografÃ­a', 'CohesiÃ³n'), each = 5)
 
-contenido_prop <- c(ComprensiónLectora = 0.25,
-                    ComprensiónOral = 0.25,
-                    Ortografía = 0.30,
-                    Cohesión = 0.20)
+contenido_prop <- c(ComprensiÃ³nLectora = 0.25,
+                    ComprensiÃ³nOral = 0.25,
+                    OrtografÃ­a = 0.30,
+                    CohesiÃ³n = 0.20)
 
-diseño <- list(min_SEM = 0.2,
+diseÃ±o <- list(min_SEM = 0.2,
                max_items = 15,
                content = contenido,
                content_prop = contenido_prop,
                max_time = 3600,
-               exposure = 0.80)
+               exposure = sample(seq(0,1,.1), n_items, replace = T))
 
 # Definir ShinyGUI
 
 GUI <- list(title = 'TAI: Ejemplo 1',
-            authors = 'Carlos Pérez',
-            instructions = c('Para contestar a un ítem se debe seleccionar siempre una de las dos opciones,
-                             no se permiten respuestas en blanco y finalizará en una hora.', 'Siguiente ítem'))
+            authors = 'Carlos PÃ©rez',
+            instructions = c('Para contestar a un Ã­tem se debe seleccionar siempre una de las dos opciones,
+                             no se permiten respuestas en blanco y finalizarÃ¡ en una hora.', 'Siguiente Ã­tem'))
 
 # Crear un modelo mirtCAT a partir de uno mirt explopratorio
 
@@ -55,7 +55,7 @@ mirtCAT.exp.3F <- generate.mirt_object(parametros.mirt.exp.3F, itemtype = '2PL')
 # Definir mirtCAT
 
 TAI <- mirtCAT(df = df, mirtCAT.exp.3F, method = 'ML', criteria = 'Drule',
-               preCAT = preTAI, design = diseño, shinyGUI = GUI)
+               preCAT = preTAI, design = diseÃ±o, shinyGUI = GUI)
 
 # Visualizar y obtener el nivel de habilidad
 
